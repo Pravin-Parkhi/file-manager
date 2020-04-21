@@ -1,0 +1,58 @@
+.side-nav-container{
+  width: 260px;
+  height: calc(100vh - 100px);
+  padding: 20px 0px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  .button-wrapper{
+    margin-bottom: 20px;
+    .add-new-btn{
+      width: 140px;
+      border-radius: 30px;
+      background-color: #ffffff;
+    }
+  }
+  .nav-tab{
+    padding: 8px 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+  .active-nav{
+    background-color: #e8f0fe;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    .name{
+      color: #1967d2;
+      font-weight: 500;
+    }
+  }
+}
+.folder-options{
+  .MuiPopover-paper{
+    width: 140px;
+    margin-top: 10px;
+  }
+  .menu-item{
+    padding: 10px 20px;
+    .menu-item-text{
+      font-size: 14px;
+    }
+    &:hover{  
+      cursor: pointer;
+      background-color: rgb(241, 243, 244);
+    }
+  }
+}
+
+.MuiPopover-paper{
+  margin-top: 10px;
+  .menu-item-list{
+    padding: 10px 20px;
+    width: 100px;
+    .menu-item{
+      padding: 8px 0px;
+      cursor: pointer;
+    }
+  }
+}

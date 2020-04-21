@@ -1,0 +1,10 @@
+.folder-container{
+  min-width: 200px;
+  margin: 10px;
+  .card-media{
+    height: 100px;
+    width: 100px;
+    margin: 20px auto;
+    background-size: contain;
+  }
+}

@@ -1,0 +1,21 @@
+.add-folder-dialog{
+  .MuiDialog-container{
+    .MuiDialog-paper{
+      width: 400px !important;
+      .add-folder-name{
+        width: 100%;
+      }
+    }
+  }  
+  
+  .dialog-title{
+    display: flex;
+    padding: 15px 24px;
+    justify-content: space-between;
+    .close-icon{
+      width: 15px;
+      height: 15px;
+      cursor: pointer;
+    }
+  }
+}

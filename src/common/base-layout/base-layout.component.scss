@@ -1,0 +1,12 @@
+.base-layout-container{
+  .content-wrapper{
+    display: flex;
+    .view-wrapper{
+      width: 100%;
+      background-color: #ffffff;
+      overflow-y: auto;
+      height: calc(100vh - 100px);
+      padding: 10px 20px 20px;
+    }
+  }
+}

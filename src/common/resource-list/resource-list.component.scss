@@ -1,0 +1,16 @@
+.resource-list-container{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  .empty-state-container{
+    width: 100%;
+    height: calc(100vh - 200px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    .empty-state-text{
+      font-size: 20px;
+    }
+  }
+}
